@@ -21,7 +21,7 @@ class App extends Component {
     <div className="App">
       <main>
         <h1>TODO List</h1>
-        <TodoList items={items.state.items} />
+        <TodoList items={this.state.items} />
         {/* // ...todo list goes here */}
       </main>
     </div>
