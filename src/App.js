@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import TodoList from './TodoList';
 import './App.css';
 
-import Amplify from 'aws-amplify';
+import Amplify, { Auth } from 'aws-amplify';
 import awsmobile from './aws-exports';
 import { withAuthenticator } from 'aws-amplify-react';
 
@@ -22,6 +22,11 @@ class App extends Component {
     }
   }
 
+  logOut = () => {
+    Auth.signOut();
+    window.location.reload();
+  }
+
   render() {
   return (
     <div className="App">
@@ -30,6 +35,7 @@ class App extends Component {
         <TodoList items={this.state.items} />
         {/* // ...todo list goes here */}
       </main>
+      <button onClick={this.logOut}>Log Out</button>
     </div>
     );
   }
