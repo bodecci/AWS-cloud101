@@ -35,7 +35,7 @@ class App extends Component {
         <TodoList items={this.state.items} />
         {/* // ...todo list goes here */}
       </main>
-      <button onClick={this.logOut}>Log Out</button>
+      {/* <button onClick={this.logOut}>Log Out</button> */}
     </div>
     );
   }
