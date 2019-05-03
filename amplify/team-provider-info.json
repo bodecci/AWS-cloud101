@@ -1,0 +1,19 @@
+{
+    "vscode": {
+        "awscloudformation": {
+            "AuthRoleName": "toder-demo-vscode-20190502222357-authRole",
+            "UnauthRoleArn": "arn:aws:iam::536499635517:role/toder-demo-vscode-20190502222357-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::536499635517:role/toder-demo-vscode-20190502222357-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "toder-demo-vscode-20190502222357-deployment",
+            "UnauthRoleName": "toder-demo-vscode-20190502222357-unauthRole",
+            "StackName": "toder-demo-vscode-20190502222357",
+            "StackId": "arn:aws:cloudformation:us-west-2:536499635517:stack/toder-demo-vscode-20190502222357/e44abd40-6d52-11e9-a070-0aceeffcea3c"
+        },
+        "categories": {
+            "auth": {
+                "cognito19d35193": {}
+            }
+        }
+    }
+}
